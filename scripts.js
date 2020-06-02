@@ -1,10 +1,33 @@
 $(document).ready(function() {
-  $("#cardOne").find(button).click(function() {
+  $("#cardOneBtn").click(function() {
     $("#cardOneDef").toggleClass("hidden");
   });
-});
 
-// $("button#light-mode").click(function() {
-//   $("body").removeClass();
-//   $("body").addClass("light-mode");
-// });
+  $("#cardTwoBtn").click(function() {
+    $("#cardTwoDef").toggleClass("hidden");
+  });
+
+  $("#cardThreeBtn").click(function() {
+    $("#cardThreeDef").toggleClass("hidden");
+  });
+
+  $("#cardFourBtn").click(function() {
+    $("#cardFourDef").toggleClass("hidden");
+  });
+
+  $("#cardFiveBtn").click(function() {
+    $("#cardFiveDef").toggleClass("hidden");
+  });
+
+  $("#cardSixBtn").click(function() {
+    $("#cardSixDef").toggleClass("hidden");
+  });
+
+  $("#cardSevenBtn").click(function() {
+    $("#cardSevenDef").toggleClass("hidden");
+  });
+  
+  $("#cardEightBtn").click(function() {
+    $("#cardEightDef").toggleClass("hidden");
+  });
+});
